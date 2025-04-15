@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: sans-serif;
+}
+input {
+  padding: 10px;
+  margin: 10px 0;
+  width: 200px;
+}
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.error {
+  color: red;
+}
+.on {
+  background-color: green;
+  color: white;
+}
+.off {
+  background-color: gray;
+  color: white;
+}
